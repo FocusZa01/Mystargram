@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 2rem 15rem;
+    background-color: #6600a5;
+    /* background-image: url('https://png.pngtree.com/background/20211217/original/pngtree-cream-texture-abstract-background-picture-image_1589786.jpg'); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: round; */
+}
+
+h1 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    font-size: 5vw;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery>img {
+    flex: 1;
+    object-fit: cover;
+}
+
+input {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+    width: 50%;
+    height: 50px;
+
+    padding: 20px;
+    margin-bottom: 42px;
+
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
